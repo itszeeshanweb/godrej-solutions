@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Godrej | Security Solutions - Dashboard</title>
+  <link rel='icon' type='image/x-icon' href='img/favicon.ico'>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="css/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/work-sans-fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="d-flex">
+          <a class="navbar-brand" href="#"><img src="img/godrej-logo.png" alt="" height="48"></a>
+          <a class="menu-bar" href="#" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon "></span> -->
+            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1H9.88889" stroke="#B1B5B5" stroke-width="1.41" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M1 8.77777H15.4444" stroke="#B1B5B5" stroke-width="1.41" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M1 16.5555H21" stroke="#B1B5B5" stroke-width="1.41" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+          <ul class="navbar-nav agent-info">
+            <li class="nav-item">
+              <div>Krunal</div>
+              <span>MIK_user1_test </span>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <div class=" dropdown">
+            <a href="#" class="d-block link-dark text-decoration-none profle-set" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <i class="bi bi-person"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">New project...</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <aside class="sidebar">
+    <div class="d-flex flex-column align-content-between h-100">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="tooltip" data-bs-placement="right"
+              data-bs-custom-class="custom-tooltip" data-bs-title="Notification">
+              <i class="bi bi-bell"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="right"
+            data-bs-custom-class="custom-tooltip" data-bs-title="Message"><i class="bi bi-chat-left-dots"></i></a>
+          </li>
+        </ul>
+      
+        <ul class="navbar-nav justify-content-end flex-grow-1">
+          <li class="nav-item">
+            <a class="nav-link logout" href="#" data-bs-toggle="tooltip" data-bs-placement="right"
+            data-bs-custom-class="custom-tooltip" data-bs-title="Logout"><i class="bi bi-power"></i></a>
+          </li>
+        </ul>
+    </div>
+  </aside>
+
+  <main>
+    <h1>Customer Details</h1>
+    <div class="row">
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="sourceoflead" class="form-label">Source of Lead</label>
+          <input type="email" class="form-control" id="sourceoflead" placeholder="Source of Lead">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="customername" class="form-label">Customer Name</label>
+          <input type="email" class="form-control" id="customername" placeholder="Customer Name">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="companyName" class="form-label">Company Name</label>
+          <input type="email" class="form-control" id="companyName" placeholder="Company Name">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="city" class="form-label">City</label>
+          <input type="email" class="form-control" id="city" placeholder="City">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="mobileNo" class="form-label">Mobile No</label>
+          <input type="email" class="form-control" id="mobileNo" placeholder="Mobile No">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="alternateContactNo" class="form-label">Alternate Contact No</label>
+          <input type="email" class="form-control" id="alternateContactNo" placeholder="Alternate Contact No">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="address" class="form-label">Address</label>
+          <input type="email" class="form-control" id="address" placeholder="Address">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="pinCode" class="form-label">Pin Code</label>
+          <input type="email" class="form-control" id="pinCode" placeholder="Pin Code">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="emailID" class="form-label">E-mail ID</label>
+          <input type="email" class="form-control" id="emailID" placeholder="E-mail ID">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="branch" class="form-label">Branch</label>
+          <input type="email" class="form-control" id="branch" placeholder="Branch">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="productCategory" class="form-label">Product Category</label>
+          <input type="email" class="form-control" id="productCategory" placeholder="Product Category">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="productModel" class="form-label">Product Model</label>
+          <input type="email" class="form-control" id="productModel" placeholder="Product Model">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="LOB" class="form-label">LOB</label>
+          <input type="email" class="form-control" id="LOB" placeholder="LOB">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="SRN" class="form-label">SRN </label>
+          <input type="email" class="form-control" id="SRN" placeholder="SRN ">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="assignTo" class="form-label">Assign to</label>
+          <input type="email" class="form-control" id="assignTo" placeholder="Assign to">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="enquiryReceived" class="form-label">Enquiry Received</label>
+          <input type="email" class="form-control" id="enquiryReceived" placeholder="Enquiry Received">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="leadReassigned" class="form-label">Lead Re-assigned</label>
+          <input type="email" class="form-control" id="leadReassigned" placeholder="Lead Re-assigned">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="disposition" class="form-label">Disposition</label>
+          <input type="email" class="form-control" id="disposition" placeholder="Disposition">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="feedback" class="form-label">Feedback</label>
+          <input type="email" class="form-control" id="feedback" placeholder="Feedback">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="callClosed" class="form-label">Call Closed</label>
+          <input type="email" class="form-control" id="callClosed" placeholder="Call Closed">
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <button type="button" class="btn btn-outline-primary" name="histroy-button">History</button>
+      <button type="submit" class="btn btn-primary" name="submit-button">Submit</button>
+    </div>
+  </main>
+
+  <!-- <nav class="navbar fixed-bottom">
+    <div class="container-fluid justify-content-center">
+      Powered by&nbsp; <a href="https://edas.tech/" target="_blank">Edas</a> &nbsp;2023
+    </div>
+  </nav> -->
+  <script src="js/jquery-3.6.4.min.js.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+</body>
+
+</html>
