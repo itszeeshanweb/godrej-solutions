@@ -1,0 +1,32 @@
+@import './variable.scss';
+body {background-image: radial-gradient(50% 50% at 50% 50%, rgba(184, 30, 94, 0.12) 25.52%, rgba(20, 212, 212, 0) 85.94%); background-position: center; background-repeat: no-repeat; height: 100vh;}
+
+.login-agent-img {position: relative}
+a{text-decoration: none; color: $color-primary;
+    &:hover{color: $color-dark-shade;}
+}
+
+.login-agent-img::before {content: ""; border-radius: 50%; background: linear-gradient(180deg, rgba(184, 30, 94, 0.28) 0%, rgba(217, 217, 217, 0) 38.02%); position: absolute; left: -75px; right: 75px; bottom: 0; top: 130px; z-index: -1;}
+
+.login-agent-img .row {height: 100vh;}
+
+.img-bg {background-image: url(../img/login-bg.png); background-repeat: no-repeat; background-position: bottom right; background-size: 100% 90%; height: 100vh;}
+
+.img-bg .row {height: 100vh;}
+.form-check-label{color: #86043A; font-weight: 300;}
+// .logo{margin-left: 70px;}
+
+@media (max-width: 1367px){
+    .login-agent{margin-left: -64px;}
+    .login-agent-img::before{top: 155px;}
+    .logo{margin-left: 10px;}
+}
+
+@media (min-width: 1920px){
+    .login-agent{width: 100%; margin-left: 70px;}
+    .login-agent-img::before{top: 265px;}
+    .img-bg{background-size: 100% 85%;}
+    .logo {margin-left: 110px;}
+}
+.form-control{border-radius: 10px; height: 50px;}
+.btn{height: 50px; border-radius: 10px; border: none; line-height: 46px;}

@@ -1,0 +1,16 @@
+%btn{
+    line-height: 40px; padding: 0 30px; border-radius: 2px; text-transform: uppercase; transition: all 0.3s ease-out 0s;  position: relative; z-index: 1; height: 40px; border-radius: 0; font-size: $sm-font-size;
+    &:hover {background-color: $color-white;}
+}
+.btn-primary, .btn-primary:focus, .btn-primary:active{
+    @extend %btn; background: $color-primary; border: none;
+    &:hover{color: $color-white; background-color: $color-dark-shade;}
+}
+.btn-outline-primary{
+    @extend %btn; border-color: $color-primary;box-shadow: none; color: $color-primary; background: none;
+    &:hover, &:active, &:focus, &:first-child:active{background: $color-primary; box-shadow: none; border-color: $color-dark-shade; color: $color-white;}
+}
+.btn-secondary{
+    @extend %btn;  border: none;
+    &:hover{color: $color-gray;}
+}
